@@ -81,7 +81,7 @@ int main(int argc, char** argv) {
         }
         videoclub[i]->ID_articulo = (i + 1); // ID DE 1 A 100
 
-        strcpy(videoclub[i]->titulo, "No establecido");
+        strcpy(videoclub[i]->titulo, "No  establecido");
 
         if (i < 50)
             videoclub[i]->tipo_articulo = 0; //50 PRIMEROS SON PELICULAS
